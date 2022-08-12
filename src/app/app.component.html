@@ -21,3 +21,16 @@
     <button>hola - {{ item }} - index {{ i }}</button>
   </app-person>
 </div>
+
+<input type="number" [(ngModel)]="level" />
+
+<div [ngSwitch]="level">
+  <p *ngSwitchCase="1">nivel 1</p>
+  <p *ngSwitchCase="2">nivel 2</p>
+  <p *ngSwitchCase="3">nivel 3</p>
+  <p *ngSwitchCase="4">nivel 4</p>
+  <p *ngSwitchDefault>
+    My Bonnie lies over the ocean. My Bonnie lies over the sea. My Bonnie lies
+    over the ocean. Oh, bring back my Bonnie to me.
+  </p>
+</div>
