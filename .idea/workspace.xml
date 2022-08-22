@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f3ff7a4-22b5-4425-b31e-5bad5a374bca" name="Changes" comment="[18-08-2022 task 1] use @ViewChild">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+    <list default="true" id="6f3ff7a4-22b5-4425-b31e-5bad5a374bca" name="Changes" comment="commit primer parcial cristian paz">
+      <change beforePath="$PROJECT_DIR$/src/app/car/car.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/car/car.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
       <updated>1659994828044</updated>
       <workItem from="1659994829368" duration="56000" />
       <workItem from="1659995012833" duration="1167000" />
-      <workItem from="1661201682510" duration="7056000" />
+      <workItem from="1661201682510" duration="7365000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1659995064421</created>
@@ -79,7 +76,35 @@
       <option name="project" value="LOCAL" />
       <updated>1659995296689</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit primer parcial cristian paz">
+      <created>1661208977089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661208977089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit primer parcial cristian paz">
+      <created>1661208999983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661208999983</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit primer parcial cristian paz">
+      <created>1661209052730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661209052730</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit primer parcial cristian paz">
+      <created>1661209078066</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661209078066</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup" />
+    <MESSAGE value="commit primer parcial cristian paz" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit primer parcial cristian paz" />
   </component>
 </project>
