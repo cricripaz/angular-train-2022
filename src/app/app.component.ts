@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, ElementRef, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hola ';
+
+  @ViewChild('myText') myTest!: ElementRef;
+
+  send(data: any) {
+    console.log('data: ', data.value);
+    console.log('MY TEST IN TS: ', this.myTest);
+    this.myTest.nativeElement.value = 'cambio desde el ts'
+  }
 }
