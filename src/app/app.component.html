@@ -1,44 +1,53 @@
 
 <p> Angular previous test</p>
 
-CALOR
 
-<div *ngFor="let product of hotProducts">
+<br><p>STOCK TOTAL : {{ _stockTotal }}</p>
+
+
+
+<div *ngIf=" _stockTotal === 0; else showData ">
+
+    <p style="background-color: orange">
+        <br>VENDIDO TODO
+
+    </p>
+
+</div>
+<ng-template #showData>
+
+    <br>CALOR
+    <div *ngFor="let product of hotProducts">
 
 
         <app-product
 
-            [name] =    "product.nombre"
-            [size] =    "product.talla"
-            [stock]=    "product.stock" >
+                [name] =    "product.nombre"
+                [size] =    "product.talla"
+                [stock]=    "product.stock" >
 
-    </app-product>
-
-
-
-</div>
-
-FRIO
-
-<div *ngFor="let product of coolProducts">
-    <app-product
-
-            [name] =    "product.nombre"
-            [size] =    "product.talla"
-            [stock]=    "product.stock" >
-
-    </app-product>
-</div>
+        </app-product>
 
 
 
-<p>
-    <br>PIPE CONCAT
-    <br>{{ 'hola' | upbConcat }}
-</p>
+    </div>
 
-<p>
 
-    <br>PIPE EXPO
-    <br>{{ 3 | upbExpo : 2 : 'hola'}}
-</p>
+    FRIO
+
+    <div *ngFor="let product of coolProducts">
+        <app-product
+
+                [name] =    "product.nombre"
+                [size] =    "product.talla"
+                [stock]=    "product.stock" >
+
+        </app-product>
+    </div>
+
+
+</ng-template>
+
+
+
+

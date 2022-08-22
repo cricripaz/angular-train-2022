@@ -1,0 +1,36 @@
+<div >
+
+    <p  *ngIf="verifyStock() ; else orangeStyle "  style="background-color: red">
+
+
+        <br>Nombre : {{ name.toUpperCase()}}
+        <br>Talla : {{ size | upbSize}}
+        <br>Stock : {{ stock }}
+        <br><button (click)="decreaseStock()" [disabled]="stock===0">Comprar</button>
+
+
+    </p>
+
+</div>
+
+<div >
+
+    <ng-template #orangeStyle>
+        <p style="background-color: orange">
+            <br>Nombre : {{ name.toUpperCase()}}
+            <br>Talla : {{ size | upbSize}}
+            <br>Stock : {{ stock }}
+            <br><button (click)="decreaseStock()" [disabled]="stock===0">Comprar</button>
+
+        </p>
+    </ng-template>
+
+</div>
+
+
+
+
+
+
+
+
