@@ -1,0 +1,67 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"6f3ff7a4-22b5-4425-b31e-5bad5a374bca\" name=\"Changes\" comment=\"[19-08-2022 task 2] pipes\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/app/app.component.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/app/app.component.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/app/app.component.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/app/app.component.ts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/app/app.module.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/app/app.module.ts\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2D5hPKLKYFVVsCAobXEvuvBYyX5\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;ts.external.directory.path&quot;: &quot;/Users/cristianpaz/Desktop/angular_2022_agosto/node_modules/typescript/lib&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"npm.Angular CLI Server\">\n    <configuration name=\"Angular Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:4200\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Angular CLI Server\" type=\"js.build_tools.npm\">\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"start\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"6f3ff7a4-22b5-4425-b31e-5bad5a374bca\" name=\"Changes\" comment=\"\" />\n      <created>1659994828044</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1659994828044</updated>\n      <workItem from=\"1659994829368\" duration=\"56000\" />\n      <workItem from=\"1659995012833\" duration=\"1167000\" />\n      <workItem from=\"1660943828914\" duration=\"11033000\" />\n      <workItem from=\"1661125302575\" duration=\"4704000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"setup\">\n      <created>1659995064421</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659995064422</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"setup\">\n      <created>1659995296689</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659995296689</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"[19-08-2022 task 1] new angular 14 import component\">\n      <created>1660947029187</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1660947029187</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"[19-08-2022 task 2] pipes\">\n      <created>1660948661299</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1660948661299</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"setup\" />\n    <MESSAGE value=\"[19-08-2022 task 1] new angular 14 import component\" />\n    <MESSAGE value=\"[19-08-2022 task 2] pipes\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"[19-08-2022 task 2] pipes\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0c5c5cd877de387044bdb96a7e27378d2eace035)
++++ b/.idea/workspace.xml	(date 1661188307704)
+@@ -1,12 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="6f3ff7a4-22b5-4425-b31e-5bad5a374bca" name="Changes" comment="[19-08-2022 task 2] pipes">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+-    </list>
++    <list default="true" id="6f3ff7a4-22b5-4425-b31e-5bad5a374bca" name="Changes" comment="pre examen" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -30,6 +25,7 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+@@ -64,7 +60,7 @@
+       <workItem from="1659994829368" duration="56000" />
+       <workItem from="1659995012833" duration="1167000" />
+       <workItem from="1660943828914" duration="11033000" />
+-      <workItem from="1661125302575" duration="4704000" />
++      <workItem from="1661125302575" duration="4812000" />
+     </task>
+     <task id="LOCAL-00001" summary="setup">
+       <created>1659995064421</created>
+@@ -94,7 +90,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1660948661299</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="pre examen">
++      <created>1661184892667</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1661184892667</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -115,6 +118,7 @@
+     <MESSAGE value="setup" />
+     <MESSAGE value="[19-08-2022 task 1] new angular 14 import component" />
+     <MESSAGE value="[19-08-2022 task 2] pipes" />
+-    <option name="LAST_COMMIT_MESSAGE" value="[19-08-2022 task 2] pipes" />
++    <MESSAGE value="pre examen" />
++    <option name="LAST_COMMIT_MESSAGE" value="pre examen" />
+   </component>
+ </project>
+\ No newline at end of file
