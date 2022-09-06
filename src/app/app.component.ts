@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {CarService} from "./car.service";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hola ';
+
+  constructor(private carService: CarService) {}
+  ngOnInit() {
+    this.carService.getAllCars().subscribe((res) => {
+      console.log('RESPONSE: ', res);
+    });
+  }
 }
