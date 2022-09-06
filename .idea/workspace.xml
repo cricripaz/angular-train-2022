@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f3ff7a4-22b5-4425-b31e-5bad5a374bca" name="Changes" comment="in progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +65,7 @@
       <updated>1659994828044</updated>
       <workItem from="1659994829368" duration="56000" />
       <workItem from="1659995012833" duration="1167000" />
-      <workItem from="1662497307712" duration="1506000" />
+      <workItem from="1662497307712" duration="1856000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1659995064421</created>
