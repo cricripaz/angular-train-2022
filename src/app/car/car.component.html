@@ -1,0 +1,16 @@
+
+<div >
+
+
+
+    <br>Type : {{ type.toUpperCase() }}
+    <br>Color {{ color}}
+    <br>capacity {{capacity}}
+    <br>Create Date : {{createDate| dateFormat}}
+    <br>Price : {{price}}
+    <br><button (click)= buyClick() [disabled]="isEnableButtonBuy">{{btnName}}</button>
+
+
+
+
+</div>
