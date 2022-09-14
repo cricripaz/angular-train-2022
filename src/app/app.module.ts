@@ -10,6 +10,8 @@ import {LoginGuard} from "./core/guards/login.guard";
 import {StoreModule} from "@ngrx/store";
 import {reducers} from "./redux";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
+import { RegisterComponent } from './pages/register/register.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 const routes: Routes = [
     {
@@ -26,6 +28,10 @@ const routes: Routes = [
         path: 'home',
         loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule),
         canActivate: [AuthGuard]
+    },
+    {
+        path: 'register',
+        loadChildren: () => import('./pages/register/register.module').then(m => m.RegisterModule),
     }
 ];
 
@@ -37,6 +43,8 @@ const routes: Routes = [
         BrowserModule,
         BrowserAnimationsModule,
         HttpClientModule,
+        ReactiveFormsModule,
+        FormsModule,
         RouterModule.forRoot(routes),
         StoreModule.forRoot(reducers),
         StoreDevtoolsModule.instrument()

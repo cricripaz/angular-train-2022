@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {AuthService} from "../services/auth.service";
 import {Router} from "@angular/router";
+import {FormBuilder, FormGroup, Validator, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-auth',
@@ -10,16 +11,26 @@ import {Router} from "@angular/router";
 })
 export class AuthComponent implements OnInit {
 
+  login : any = FormGroup
+
   constructor(private authService: AuthService,
-              private router: Router) {
+              private router: Router,
+              private fbLogin:FormBuilder) {
   }
   ngOnInit(): void {
+
+    this.login = this.fbLogin.group({
+      email:['',[Validators.required ,Validators.email]],
+      pwd:['',Validators.required]
+
+    })
   }
 
-  onLogin() {
+  onLogin( data : any) {
+    console.log(data)
     this.authService.login({
-      email: 'test@test.com',
-      password: '123456',
+      email: data.email ,
+      password: data.pwd ,
       returnSecureToken: true
     }).subscribe(res => {
       console.log('RESPONSE: ', res)
@@ -39,4 +50,7 @@ export class AuthComponent implements OnInit {
   }
 
 
+    toRegisterView() {
+        this.router.navigate(['register'])
+    }
 }

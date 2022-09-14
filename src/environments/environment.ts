@@ -6,13 +6,13 @@ export const environment = {
   production: false,
 
   app: {
-    apiBaseUrl: 'dddd'
+    apiBaseUrl: 'https://league-of-legends-upb-default-rtdb.firebaseio.com'
     
   },
 
   auth: {
     apiBaseUrl: 'https://identitytoolkit.googleapis.com',
-    apiKey: 'AIzaSyAvECyCsTlOooUPIEFTZYlo2EpoA6B7lXE'
+    apiKey: 'AIzaSyBS1rN_4I5LPiq-h7_N8KICCO5zzqQNzRE'
   }
 };
 
