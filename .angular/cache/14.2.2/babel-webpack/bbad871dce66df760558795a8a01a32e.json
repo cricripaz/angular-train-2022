@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createAction } from \"@ngrx/store\";\nexport const openSidePanel = createAction('[HOME]openSidePanel');\nexport const closeSidePanel = createAction('[HOME]closeSidePanel');","map":null,"metadata":{},"sourceType":"module"}

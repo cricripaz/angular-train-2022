@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  production: true,\n  app: {\n    apiBaseUrl: 'https://league-of-legends-upb-default-rtdb.firebaseio.com'\n  },\n  auth: {\n    apiBaseUrl: 'https://identitytoolkit.googleapis.com',\n    apiKey: 'AIzaSyBS1rN_4I5LPiq-h7_N8KICCO5zzqQNzRE'\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

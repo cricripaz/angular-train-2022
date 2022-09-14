@@ -14,7 +14,7 @@ export class CarService {
   }
 
   getAllCars(): Observable<any> {
-    return this.http.get(`${this.url}/cars.json`);
+    return this.http.get(`${this.url}/data.json`);
   }
 
 }

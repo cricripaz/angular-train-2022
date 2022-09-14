@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { reducerHome } from \"./home.reducer\";\nexport const reducers = {\n  home: reducerHome\n};","map":null,"metadata":{},"sourceType":"module"}

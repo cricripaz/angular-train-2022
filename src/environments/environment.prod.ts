@@ -1,7 +1,7 @@
 export const environment = {
   production: true ,
   app: {
-    apiBaseUrl: 'https://league-of-legends-upb-default-rtdb.firebaseio.com'
+    apiBaseUrl: 'https://test-bubu-web-default-rtdb.firebaseio.com'
 
   },
 

@@ -45,6 +45,22 @@
     <p>---</p>
     <button class="btn" (click)="onCloseSidePanel()">close Side Panel</button>
 
+<div *ngFor="let i of allData">
+    <app-tournament
+
+            [title]="i.title"
+            [dateStart]="i.startDate"
+            [dateEnd]="i.endDate"
+
+
+    >
+
+    </app-tournament>
+
+</div>
+
+
+
     <mat-drawer class="example-sidenav" mode="side" [position]="'end'" [opened]="openPanel">
         <p>FORMULARIO</p>
     </mat-drawer>

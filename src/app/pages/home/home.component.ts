@@ -15,19 +15,28 @@ export class HomeComponent implements OnInit {
 
   showFiller = false;
 
+  allData : any =[];
+
+  allTournaments :any=[];
   constructor(private carService: CarService , private authService: AuthService , private store:Store) {
   }
 
   ngOnInit() {
     this.carService.getAllCars().subscribe(res => {
-      console.log('RESPONSE CARS: ', res)
+        this.allTournaments = res
+
+      Object.entries(this.allTournaments)
+          .filter((c: any) => c[1])
+          //@ts-ignore
+          .forEach((c)=>this.allData.push({id:c[0],...c[1]}));
+
     })
 
 
     this.store.select((s: any) => s.home).subscribe(s => {
       console.log('STORE: ', s)
       this.openPanel = s.sidePanel;
-      console.log('RESPONSE CARS: ', s, this.openPanel)
+      console.log('TOURNAMENTS: ', s, this.openPanel)
     })
 
   }
