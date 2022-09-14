@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   }
 
   /**
-   * Logout to go to Login view
+   * Logout to go to Log in view
    * @public
    */
   public onLogout(): void {

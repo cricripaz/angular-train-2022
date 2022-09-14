@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f3ff7a4-22b5-4425-b31e-5bad5a374bca" name="Changes" comment="[12-09-2022 task 1] guard with redirect">
+    <list default="true" id="6f3ff7a4-22b5-4425-b31e-5bad5a374bca" name="Changes" comment="[12-09-2022 task 3] logout in header">
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/9.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/14.2.2/angular-webpack/4660c6a1e9c96da41f16cd558448cfe08a47ae81/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +93,7 @@
       <workItem from="1662672105487" duration="309000" />
       <workItem from="1662672418125" duration="6061000" />
       <workItem from="1663018969018" duration="2633000" />
+      <workItem from="1663179707687" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1659995064421</created>
@@ -177,7 +190,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="LONG_EDGES_VISIBLE" value="true" />
+            </State>
           </value>
         </entry>
       </map>
