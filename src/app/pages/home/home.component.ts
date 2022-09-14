@@ -1,6 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {CarService} from "../services/car.service";
 import {AuthService} from "../services/auth.service";
+import {Store} from "@ngrx/store";
+import {closeSidePanel, openSidePanel} from "../../redux/home.actions";
+import {RootState} from "../../redux";
 @Component({
   selector: 'app-auth',
   templateUrl: './home.component.html',
@@ -8,13 +11,25 @@ import {AuthService} from "../services/auth.service";
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private carService: CarService , private authService: AuthService) {
+  openPanel: boolean = false;
+
+  showFiller = false;
+
+  constructor(private carService: CarService , private authService: AuthService , private store:Store) {
   }
 
   ngOnInit() {
     this.carService.getAllCars().subscribe(res => {
       console.log('RESPONSE CARS: ', res)
     })
+
+
+    this.store.select((s: any) => s.home).subscribe(s => {
+      console.log('STORE: ', s)
+      this.openPanel = s.sidePanel;
+      console.log('RESPONSE CARS: ', s, this.openPanel)
+    })
+
   }
 
   /**
@@ -23,6 +38,14 @@ export class HomeComponent implements OnInit {
    */
   public onLogout(): void {
     this.authService.logout();
+  }
+
+  onOpenSidePanel() {
+    this.store.dispatch(openSidePanel())
+  }
+
+  onCloseSidePanel() {
+    this.store.dispatch(closeSidePanel())
   }
 
 }
